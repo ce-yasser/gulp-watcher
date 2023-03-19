@@ -1,0 +1,30 @@
+html {
+	font-size: calc(var(--prefix-font-size-base) - 5px);
+
+	@media (min-width: screen-min('sm')) {
+		font-size: calc(var(--prefix-font-size-base) - 4px);
+	}
+
+	@media (min-width: screen-min('md')) {
+		font-size: calc(var(--prefix-font-size-base) - 3px);
+	}
+
+	@media (min-width: screen-min('lg')) {
+		font-size: calc(var(--prefix-font-size-base) - 2px);
+	}
+
+	@media (min-width: screen-min('xl')) {
+		font-size: var(--prefix-font-size-base);
+	}
+}
+
+body {
+	font-family: var(--prefix-font-main);
+	font-weight: var(--prefix-font-weight-base);
+	color: var(--prefix-color-text-main);
+	font-size: 1rem;
+	line-height: var(--prefix-font-line-height);
+}
+
+@import "headings";
+@import "copy";

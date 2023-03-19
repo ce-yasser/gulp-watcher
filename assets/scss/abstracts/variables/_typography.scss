@@ -1,0 +1,30 @@
+// Font size sass variable
+// will be used in rem function
+$font-size-base: 18px;
+$font-base: -apple-system,
+BlinkMacSystemFont,
+Ubuntu,
+Cantarell,
+"Helvetica Neue",
+sans-serif;
+
+:root {
+	--prefix-font-main: "Gotham", "Bahij", #{$font-base};
+	--prefix-font-flavor: "Run Wild Demo", "Bahij", #{$font-base};
+	--prefix-font-form: "Nunito Sans", "Bahij", #{$font-base};
+	--prefix-font-code: monaco, consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	--prefix-font-pre: "Courier 10 Pitch", courier, monospace;
+
+	--prefix-font-line-height: 1.4;
+	--prefix-font-line-height-pre: 1.6;
+
+	--prefix-font-weight-light: 300;
+	--prefix-font-weight-regular: 400;
+	--prefix-font-weight-medium: 500;
+	--prefix-font-weight-semibold: 600;
+	--prefix-font-weight-bold: 700;
+	--prefix-font-weight-base: var(--prefix-font-weight-medium);
+	--prefix-font-weight-heading: var(--prefix-font-weight-regular);
+
+	--prefix-font-size-base: #{$font-size-base};
+}

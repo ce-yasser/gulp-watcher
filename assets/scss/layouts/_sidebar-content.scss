@@ -1,0 +1,17 @@
+.site {
+	display: grid;
+	grid-template-columns: ($size__site-sidebar) auto;
+	grid-template-areas:
+		"sidebar main"
+}
+
+.site-main {
+	grid-area: main;
+	overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
+}
+
+.widget-area {
+	grid-area: sidebar;
+}
+
+@import "no-sidebar";

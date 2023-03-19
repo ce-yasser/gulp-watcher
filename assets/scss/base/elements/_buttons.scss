@@ -1,0 +1,26 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: none;
+	border: 1px solid var(--prefix-color-border-button);
+	border-radius: 40px;
+	background: var(--prefix-color-background-button);
+	color: var(--prefix-color-light);
+	line-height: 1;
+	padding: 0.6em 1em;
+	text-decoration: none;
+	transition: 0.3s ease-out;
+
+	&:active,
+	&:focus,
+	&:hover {
+		color: var(--prefix-color-light);
+		background-color: #3e6fbb;
+		border-color: var(--prefix-color-blue-hover);
+	}
+
+	&:visited {
+		color: var(--prefix-color-light);
+	}
+}

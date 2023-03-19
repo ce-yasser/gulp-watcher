@@ -1,0 +1,57 @@
+.container,
+.tinytainer {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	padding: 0 $gutter;
+}
+
+.tinytainer {
+
+	@media (min-width: screen-min('xs')) {
+		width: 350px;
+	}
+
+	@media (min-width: screen-min('sm')) {
+		width: 430px;
+	}
+
+	@media (min-width: screen-min('md')) {
+		width: 520px;
+	}
+
+	@media (min-width: screen-min('lg')) {
+		width: 700px;
+	}
+
+	@media (min-width: screen-min('xl')) {
+		width: 800px;
+	}
+}
+
+.container {
+
+	@media (min-width: screen-min('xs')) {
+		width: 540px;
+	}
+
+	@media (min-width: screen-min('sm')) {
+		width: 720px;
+	}
+
+	@media (min-width: screen-min('md')) {
+		width: 960px;
+	}
+
+	@media (min-width: screen-min('lg')) {
+		width: 1140px;
+	}
+
+	@media (min-width: screen-min('xl')) {
+		width: 1320px;
+	}
+
+	@media (min-width: screen-min('xxl')) {
+		width: 1540px;
+	}
+}

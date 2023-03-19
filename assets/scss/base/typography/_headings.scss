@@ -1,0 +1,36 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: var(--prefix-font-weight-heading);
+	color: var(--prefix-color-sand);
+	margin: 0.67em 0;
+	/*rtl:remove*/
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-size: rem(46px);
+}
+
+h2 {
+	font-size: rem(36px);
+}
+
+h3 {
+	font-size: rem(26px);
+}
+
+h4 {
+	font-size: rem(20px);
+}
+
+h5 {
+	font-size: rem(17px);
+}
+
+h6 {
+	font-size: 13px;
+}

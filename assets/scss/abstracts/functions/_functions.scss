@@ -1,0 +1,11 @@
+@function rem($font-size) {
+	@return calc($font-size / $font-size-base) * 1rem;
+}
+
+@function screen-min($size) {
+	@return map-get($prefix-screens, $size) + 'px';
+}
+
+@function screen-max($size) {
+	@return map-get($prefix-screens, $size) - 1  + 'px';
+}

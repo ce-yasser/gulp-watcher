@@ -1,0 +1,52 @@
+:root {
+	/** Colors */
+	--prefix-color-blue: #35517B;
+	--prefix-color-darkblue: #1F2F48;
+	--prefix-color-darkblue2: #162230;
+	--prefix-color-blue-hover: #233C62;
+	--prefix-color-lightblue: #E1EDFF;
+	--prefix-color-secondary: #0065F21F;
+
+	--prefix-color-sand: #D3AA79;
+	--prefix-color-lightsand: #ebb470;
+	--prefix-color-sand-hover: #BC9769;
+
+	--prefix-color-light: #ffffff;
+	--prefix-color-lightgray: #FBFBFB;
+	--prefix-color-border: #CDAB80;
+	--prefix-color-error: #F43319;
+
+	/** Elements */
+	--prefix-color-background-body: var(--prefix-color-light);
+	--prefix-color-background-header: #122039;
+	--prefix-color-background-footer: #122039;
+	--prefix-color-background-screen: var(--prefix-color-lightgray);
+	--prefix-color-background-hr: #ccc;
+	--prefix-color-background-button: var(--prefix-color-blue);
+	--prefix-color-background-pre: #eee;
+	--prefix-color-background-ins: #fff9c0;
+
+	--prefix-color-text-screen: #21759b;
+	--prefix-color-text-input: #666;
+	--prefix-color-text-input-focus: #111;
+	--prefix-color-link: #4169e1; //royalblue
+	--prefix-color-link-visited: #800080; //purple
+	--prefix-color-link-hover: #191970; //midnightblue
+	--prefix-color-text-main: var(--prefix-color-blue);
+
+	--prefix-color-border-button: transparent;
+	--prefix-color-border-button-hover: transparent;
+	--prefix-color-border-button-focus: transparent;
+	--prefix-color-border-input: #E5E5E5;
+	--prefix-color-border-abbr: #666;
+	--prefix-color-background-input: #FAFAFA;
+
+	/** Traits */
+	--prefix-box-shadow: 0px 3px 6px #00000029;
+	--prefix-box-shadow-sand: 0px 3px 6px var(--prefix-color-sand);
+	--prefix-background-gradient: linear-gradient(180deg, var(--prefix-color-blue) 0%, var(--prefix-color-darkblue) 49%, #1C2A40 74%, #1B293E 100%);
+	--prefix-background-gradient-reversed: linear-gradient(0, var(--prefix-color-blue) 0%, var(--prefix-color-darkblue) 49%, #1C2A40 74%, #1B293E 100%);
+	--prefix-background-gradient-blue: linear-gradient(0deg, var(--prefix-color-darkblue) 0%, var(--prefix-color-blue) 100%);
+	--prefix-background-gradient-sand: linear-gradient(0deg, var(--prefix-color-sand) 0%, transparent 100%);
+
+}

@@ -1,0 +1,69 @@
+@font-face {
+	font-family: "Gotham";
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	src: url(#{$fonts-path}/gotham/GothamBook.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Gotham";
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+	src: url(#{$fonts-path}/gotham/GothamMedium.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Gotham";
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+	src: url(#{$fonts-path}/gotham/GothamLightItalic.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Run Wild Demo";
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	src: url(#{$fonts-path}/runwild-demo/runwild-demo.woff2) format("woff2");
+}
+
+/** Arabic Fonts
+---------------- */
+@font-face {
+	font-family: "Bahij";
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+	src: url(#{$fonts-path}/bahij/Bahij_TheSansArabic-Light.woff2) format("woff2");
+}
+@font-face {
+	font-family: "Bahij";
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	src: url(#{$fonts-path}/bahij/Bahij_TheSansArabic-Plain.woff2) format("woff2");
+}
+@font-face {
+	font-family: "Bahij";
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+	src: url(#{$fonts-path}/bahij/Bahij_TheSansArabic-SemiBold.woff2) format("woff2");
+}
+@font-face {
+	font-family: "Bahij";
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+	src: url(#{$fonts-path}/bahij/Bahij_TheSansArabic-Bold.woff2) format("woff2");
+}
+@font-face {
+	font-family: "Bahij";
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+	src: url(#{$fonts-path}/bahij/Bahij_TheSansArabic-Black.woff2) format("woff2");
+}

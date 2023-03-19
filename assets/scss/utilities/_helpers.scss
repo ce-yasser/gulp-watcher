@@ -1,0 +1,14 @@
+.hide {
+	display: none;
+
+	&--sm {
+		@extend .hide;
+		@media (min-width: screen-min('sm')) {
+			display: block;
+		}
+	}
+}
+
+.fadeIn {
+	animation: 0.5s fadeIn ease-out;
+}
